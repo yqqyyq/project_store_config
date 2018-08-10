@@ -2,12 +2,12 @@
 spring:
   profiles:
     active: dev 
-hello: hello dev, welcome to config server, refresh.
-security.user.password: mysecret_dev_refresh
+hello: hello dev, welcome to config server, refresh2.
+security.user.password: mysecret_dev_refresh2
 
 ---
 spring:
   profiles:
     active: pro 
 hello: hello pro, welcome to config server.
-security.user.password: mysecret_pro
+security.user.password: mysecret_pro2
