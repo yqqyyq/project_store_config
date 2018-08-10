@@ -4,10 +4,3 @@ spring:
     active: dev 
 hello: hello dev, welcome to config server, refresh2.
 security.user.password: mysecret_dev_refresh2
-
----
-spring:
-  profiles:
-    active: pro 
-hello: hello pro, welcome to config server pro2.
-security.user.password: mysecret_pro2_refresh
