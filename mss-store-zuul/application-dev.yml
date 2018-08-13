@@ -4,4 +4,6 @@ spring:
     active: dev 
 hello: hello dev, welcome to config server, refresh2.
 security.user.password: mysecret_dev_refresh2
-store.mail.queue.name: my-queue
+store.mail.mq.queue: email_queue
+store.mail.mq.exchange: email_exchange
+store.mail.mq.routkey: email_routkey
